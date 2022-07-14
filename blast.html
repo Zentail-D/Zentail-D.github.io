@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>B.L.A.S.T.</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Ethan Degen's Portfolio</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">Projects</a>
+								<ul>
+									<li><a href="blast.html">B.L.A.S.T.</a></li>
+									<li><a href="winter.html">Winter Level</a></li>
+									<li><a href="turningpoint.html">Turning Point</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>B.L.A.S.T.</h2>
+						<p>Class of 2022 Senior Project</p>
+					</header>
+					<div class="box">
+						<span class="image featured"><img src="images/BlastPoster.png" alt="" /></span>
+						<h3>What is B.L.A.S.T.</h3>
+						<p>
+							Blast started as a pitch for the 2022 senior project where a group of artists and programmers were tasked with creating a game in a little under a year and a half. Its acronym stood for Bullet, Laser, Alien, Snake, Taco, and it initially was pitched as a single-player roguelike fps that was inspired by games like Doom and Gunfire Reborn. 
+							The idea for the game changed throughout our preproduction period as all of the students in the class gave their input into what they wanted to develop and it ended up turning into a multiplayer arena-based shooter with PvPvE elements made in Unreal Engine 4.26. After the preproduction ended the game shifted away from a roguelike where the objective was to 
+							clear one level at a time to an arena shooter that aimed to take Doom's combat, Duke Nukem's comedy, and Titanfall's movement. The class wasn't given technical guidance on the project so we were completely on our own to come up with the best game we could after the guided preproduction period ended.
+						</p>
+						<div class="col-4"><span class="image fit"><img src="images/BlastMotorpool1.png" alt=""></span></div>
+						<p>
+							All of the students had to apply for the role they wanted within the team at the end of the production period with a board of 3 professors deciding who was picked for what roles. This was to give everyone a taste of what interviews would be like in the real world and we were allowed to move people around after these roles were selected if the
+							leads checked it off. This left the leads completely in charge of the project except for discipline and it worked except for a few kinks along the way that we had to work out for ourselves. We were only given 3 lead roles that we could apply for which were lead engineer, lead artist, and lead producer. The engineer and art leads would watch over
+							their respective teams while the producer would try to make sure the project ran smoothly. I applied for the lead engineer and production roles and had to go through 2 rounds of interviews with 6 candidates and I ended up being picked engineering lead at the end. None of our artists applied for the art lead role so it was left dormant by the professors.	
+						</p>
+						<div class="row">
+							<div class="row-6 row-12-mobilep">
+								<h3>What Did I Do</h3>
+								<p>
+									My roles at the end of the project were level designer, gameplay designer, system designer, engineering lead, source control manager, build engineer, and gameplay programmer. In the beginning, I set out to try and bring all the engineers up to the same level of knowledge so we all agreed to put at least 20 hours a week in over the summer. 
+									Most of my engineers did what was expected without issue and when someone fell behind I met with them privately to see if they were having issues in their personal lives and gave them an adjusted goal for the week on a case-by-case basis for what they needed.
+									We had standups twice a week where we showed our progress to the entire group so everyone was staying on track and so we could help each other learn.
+								</p>
+								<div class="col-4"><span class="image fit"><img src="images/BlastMotorpool2.png" alt=""></span></div>
+								<p>
+									After the summer was over we kicked off the semester by starting official asset development and team assignments. Each team met with me so we could design the system they were tasked to create and talk about how it fits into the bigger picture. After we set goals and expectations for our AI, movement, map, and weapon design
+                                    everyone went to work while I moved from team to team assisting where I was needed to help teams hit weekly goals and adjust the design as we learned more. When I wasn't helping the engineering teams I was creating the landscape that will surround the level using programs like World Machine and Gaea. I also started 
+                                    designing 4 of our 6 zones that made up the level, I started by paper prototyping different layouts to see what sightlines felt good and get an idea for the general flow of the level. By the end of the first semester, I had created a prototype for the movement system made from Unreal blueprints that gave the player Titanfall's base 
+                                    movement for the team to convert into C++, I used Gaea to procedurally generate the surrounding terrain, finished prototyping the level and started grey boxing, designed 5 different enemy types, and 5 different weapons. We ended the semester with a live multiplayer demo at the Shawnee game conference (SGC). 
+                                    This demo consisted of all of our systems working together except for the win condition which we weren't able to get into the build. We finished the win condition a week afterward completing the gameplay loop and from here we started polishing.
+								</p>
+								<div class="col-4"><span class="image fit"><img src="images/BlastMotorpool5.png" alt=""></span></div>
+								<p>
+									Engineers worked diligently over winter break studying how they could polish their systems. We hit the ground running at the start of 2022, engineers rewrote the AI system once to work with networking, the weapon system was rewritten 3 times by the end, and movement was rewritten twice. During all of this, I cut features that we couldn't 
+									refine or that didn't feel good. We ended up cutting an elemental system out from our weapons, wall running and climbing from movement, our boss and mortar enemy from the AI, and the size of the map down to around 20% of what we planned due to issues with team members. 
+								</p>
+								<div class="col-4"><span class="image fit"><img src="images/BlastShipping1.png" alt=""></span></div>
+								<p>
+									Once we started getting assets finished I swapped out Unreal cubes for finished meshes using references from real military bases and the levels zones started to take shape. I designed each of the zones to have a different purpose so they felt cohesive in the sense they're fulfilling specific roles in the same military base 
+                                    like a storage area, motor pool, barracks, or an infirmary. Each of these zones had points of interest that the player would fight around to generate points they use to win the match. I filled the space in the map with different compositions of assets like shipping container walls, crash sites, and foliage. 
+                                    When the grey boxes had a more defined shape I began iterating on sightlines or getting rid of them altogether to preserve the flow I wanted the player to have. After this, I did a general lighting pass to guide players through the level to points of interest where they would score points and hidden areas where power-ups were waiting.
+								</p>
+								<div class="col-4"><span class="image fit"><img src="images/BlastShipping2.png" alt=""></span></div>
+								<h3>Postmortem</h3>
+								<p>
+									I learned a lot from working on BLAST, I think some of the most important lessons I had was importance of communication, clear documentation, leadership structure, expectations, scope, and honesty. If we had more communication our team wouldn't have fallen months behind schedule and we might not have had to cut out 
+									so much of the map. If we had clear documentation so many of our assets and systems wouldn't have been lost in the pipeline or needed to be overhauled. Better leadership structure would have made our leads more accountable myself included, we had a lot of times where no one on the team had any idea what we were doing or if we 
+									had a plan in mind. We set a lot of minimum expectations at the start of each milestone but we never set a maximum. This made a lot of our underachievers become comfortable hiding under the overachievements of others and it made our teammates who worked 30-40 hours a week on our project miserable since the rest of the team wasn't.
+									We underestimated how much we could get done in a short amount of time and overestimated everyone's willingness to work. When 4 people are working in the office space for 12-14 hours a day and no one else stays over 3 hours those who are giving it all they've got become bitter with the rest of the team. Lastly people needed to 
+									be more honest all over the team. We needed people to speak up with they needed help with extreme burnout and when they were lying about how much work they put into the project. 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="box alt">
+						<div class="row gtr-50 gtr-uniform">
+							
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpool1.png"><img src="images/BlastMotorpool1.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpool2.png"><img src="images/BlastMotorpool2.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpool3.png"><img src="images/BlastMotorpool3.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpool4.png"><img src="images/BlastMotorpool4.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpool5.png"><img src="images/BlastMotorpool5.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpool6.png"><img src="images/BlastMotorpool6.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastShipping1.png"><img src="images/BlastShipping1.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastShipping2.png"><img src="images/BlastShipping2.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastShipping3.png"><img src="images/BlastShipping3.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastShipping4.png"><img src="images/BlastShipping4.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastShippingOverview.png"><img src="images/BlastShippingOverview.png" alt="" style="width:400px;height:200px"></a></span></div>
+							<div class="col-4"><span class="image fit"><a href="images/BlastMotorpoolOverview.png"><img src="images/BlastMotorpoolOverview.png" alt="" style="width:400px;height:200px"></a></span></div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/ethandegen/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
