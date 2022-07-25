@@ -50,46 +50,22 @@
 							clear one level at a time to an arena shooter that aimed to take Doom's combat, Duke Nukem's comedy, and Titanfall's movement. The class wasn't given technical guidance on the project so we were completely on our own to come up with the best game we could after the guided preproduction period ended.
 						</p>
 						<div class="col-4"><span class="image fit"><img src="images/BlastMotorpool1.png" alt=""></span></div>
-						<p>
-							All of the students had to apply for the role they wanted within the team at the end of the production period with a board of 3 professors deciding who was picked for what roles. This was to give everyone a taste of what interviews would be like in the real world and we were allowed to move people around after these roles were selected if the
-							leads checked it off. This left the leads completely in charge of the project except for discipline and it worked except for a few kinks along the way that we had to work out for ourselves. We were only given 3 lead roles that we could apply for which were lead engineer, lead artist, and lead producer. The engineer and art leads would watch over
-							their respective teams while the producer would try to make sure the project ran smoothly. I applied for the lead engineer and production roles and had to go through 2 rounds of interviews with 6 candidates and I ended up being picked engineering lead at the end. None of our artists applied for the art lead role so it was left dormant by the professors.	
-						</p>
 						<div class="row">
 							<div class="row-6 row-12-mobilep">
 								<h3>What Did I Do</h3>
 								<p>
-									My roles at the end of the project were level designer, gameplay designer, system designer, engineering lead, source control manager, build engineer, and gameplay programmer. In the beginning, I set out to try and bring all the engineers up to the same level of knowledge so we all agreed to put at least 20 hours a week in over the summer. 
-									Most of my engineers did what was expected without issue and when someone fell behind I met with them privately to see if they were having issues in their personal lives and gave them an adjusted goal for the week on a case-by-case basis for what they needed.
-									We had standups twice a week where we showed our progress to the entire group so everyone was staying on track and so we could help each other learn.
+									At the end of the project, I oversaw the level design, gameplay design, system design, and programming. I designed a zone system that broke the level into zones that streamed in as the players moved throughout. After this, I created 3 of 5 zones from paper block-outs to the finished product alone. During this, I also assisted other level designers by populating their zones 
+                                    with foliage and asset compositions along with doing QA and terrain passes to make sure the zones flowed together well. I also designed our power-up weapon system where players would get new temporary firing modes for their guns by killing enemies. I also designed basic AI where enemy types would interact with the player and move differently. Lastly, I also designed 
+                                    and prototyped the movement system although it didn't hold up well with the vision of the game so it was simplified. The movement ended up having walking with jumping, sprinting, sliding, and crouching to keep in line with the run-and-gun experience we wanted to deliver.
 								</p>
 								<div class="col-4"><span class="image fit"><img src="images/BlastMotorpool2.png" alt=""></span></div>
-								<p>
-									After the summer was over we kicked off the semester by starting official asset development and team assignments. Each team met with me so we could design the system they were tasked to create and talk about how it fits into the bigger picture. After we set goals and expectations for our AI, movement, map, and weapon design
-                                    everyone went to work while I moved from team to team assisting where I was needed to help teams hit weekly goals and adjust the design as we learned more. When I wasn't helping the engineering teams I was creating the landscape that will surround the level using programs like World Machine and Gaea. I also started 
-                                    designing 4 of our 6 zones that made up the level, I started by paper prototyping different layouts to see what sightlines felt good and get an idea for the general flow of the level. By the end of the first semester, I had created a prototype for the movement system made from Unreal blueprints that gave the player Titanfall's base 
-                                    movement for the team to convert into C++, I used Gaea to procedurally generate the surrounding terrain, finished prototyping the level and started grey boxing, designed 5 different enemy types, and 5 different weapons. We ended the semester with a live multiplayer demo at the Shawnee game conference (SGC). 
-                                    This demo consisted of all of our systems working together except for the win condition which we weren't able to get into the build. We finished the win condition a week afterward completing the gameplay loop and from here we started polishing.
-								</p>
-								<div class="col-4"><span class="image fit"><img src="images/BlastMotorpool5.png" alt=""></span></div>
-								<p>
-									Engineers worked diligently over winter break studying how they could polish their systems. We hit the ground running at the start of 2022, engineers rewrote the AI system once to work with networking, the weapon system was rewritten 3 times by the end, and movement was rewritten twice. During all of this, I cut features that we couldn't 
-									refine or that didn't feel good. We ended up cutting an elemental system out from our weapons, wall running and climbing from movement, our boss and mortar enemy from the AI, and the size of the map down to around 20% of what we planned due to issues with team members. 
-								</p>
-								<div class="col-4"><span class="image fit"><img src="images/BlastShipping1.png" alt=""></span></div>
-								<p>
-									Once we started getting assets finished I swapped out Unreal cubes for finished meshes using references from real military bases and the levels zones started to take shape. I designed each of the zones to have a different purpose so they felt cohesive in the sense they're fulfilling specific roles in the same military base 
-                                    like a storage area, motor pool, barracks, or an infirmary. Each of these zones had points of interest that the player would fight around to generate points they use to win the match. I filled the space in the map with different compositions of assets like shipping container walls, crash sites, and foliage. 
-                                    When the grey boxes had a more defined shape I began iterating on sightlines or getting rid of them altogether to preserve the flow I wanted the player to have. After this, I did a general lighting pass to guide players through the level to points of interest where they would score points and hidden areas where power-ups were waiting.
-								</p>
-								<div class="col-4"><span class="image fit"><img src="images/BlastShipping2.png" alt=""></span></div>
 								<h3>Postmortem</h3>
 								<p>
-									I learned a lot from working on BLAST, I think some of the most important lessons I had was importance of communication, clear documentation, leadership structure, expectations, scope, and honesty. If we had more communication our team wouldn't have fallen months behind schedule and we might not have had to cut out 
-									so much of the map. If we had clear documentation so many of our assets and systems wouldn't have been lost in the pipeline or needed to be overhauled. Better leadership structure would have made our leads more accountable myself included, we had a lot of times where no one on the team had any idea what we were doing or if we 
-									had a plan in mind. We set a lot of minimum expectations at the start of each milestone but we never set a maximum. This made a lot of our underachievers become comfortable hiding under the overachievements of others and it made our teammates who worked 30-40 hours a week on our project miserable since the rest of the team wasn't.
-									We underestimated how much we could get done in a short amount of time and overestimated everyone's willingness to work. When 4 people are working in the office space for 12-14 hours a day and no one else stays over 3 hours those who are giving it all they've got become bitter with the rest of the team. Lastly people needed to 
-									be more honest all over the team. We needed people to speak up with they needed help with extreme burnout and when they were lying about how much work they put into the project. 
+									I learned a lot from working on BLAST, I think some of the most important lessons I had were communication, clear documentation, leadership structure, expectations, scope, and honesty. If we had more communication our team wouldn't have fallen months behind schedule and we might not have had to cut out half 
+                                    of the art. With clear documentation so many of our assets and systems wouldn't have been delayed in the pipeline or needed an overhaul. Better leadership structure would have made our leads more accountable myself included, we had a lot of times where no one on the team had any idea what we were doing or if we 
+                                    had a plan in mind. There were a lot of minimum expectations at the start of each milestone but there wasn't a maximum. This caused our underachievers to become comfortable hiding under the overachievements of others. This made teams miserable since the rest of the project wasn't always carrying their weight.
+                                    We underestimated how much we could get done in a short amount of time and overestimated everyone's willingness to work. Teams crunching in the office space for 12-14 hours a day while others aren't working over 3 hours made a lot of the team bitter towards one another. Lastly, people needed to 
+                                    be more honest all over the team. Teams should have spoken up when they needed help with burnout instead of lying about how much work they put into the project.
 								</p>
 							</div>
 						</div>
